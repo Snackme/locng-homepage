@@ -4,7 +4,7 @@ import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
-  font-weight: BeforeUnloadEvent;
+  font-weight: bold;
   font-size: 18px;
   display: inline-flex;
   align-items:center;
@@ -28,8 +28,9 @@ const Logo = () => {
             color={useColorModeValue('gray.800', 'whiteaAlpha.900')}
             fontFamily="M PLUS Rounded 1c"
             fontWeight="bold"
-            ml={3}>
-            Loc Nguyen
+            ml={3}
+            >
+              Loc Nguyen
           </Text>
         </LogoBox>
       </a>
