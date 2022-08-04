@@ -38,12 +38,12 @@ const Navbar = props => {
 
   return (
     <Box
-      height="6%"
+      height="6.1%"
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
-      style={{ backdropFilter: 'blur(10px' }}
+      bg={useColorModeValue('ffffff40', '#10172780')}
+      style={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
       {...props}
     >
