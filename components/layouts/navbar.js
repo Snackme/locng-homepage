@@ -38,7 +38,7 @@ const Navbar = props => {
 
   return (
     <Box
-      height="6.1%"
+      height="fixed%"
       position="fixed"
       as="nav"
       w="100%"
