@@ -5,6 +5,8 @@ import {
   Image,
   useColorModeValue
 } from '@chakra-ui/react'
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
 
 const Page = () => {
   const pic = `/images/catmotorcycle${useColorModeValue('', '-dark')}.png`
@@ -18,7 +20,7 @@ const Page = () => {
         textalign="center"
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello! I&apos;m Loc. Welcome to my page!
+        <p align="center">Hello, and welcome to my page!</p>
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -53,10 +55,30 @@ const Page = () => {
               display="inline-block"
               borderRadius="full"
               alt="Profile Image"
+              width="100px"
+              height="100px"
             />
           </Box>
         </Box>
       </Box>
+
+      <Section delay="0.1">
+        <Heading as="h3">
+          <u>About me.</u>
+        </Heading>
+        <Paragraph>
+          I&apos;m a computer engineer student, studying at the university
+          Oslomet. I am currently working towards my bachelor thesis next
+          spring, by learning as much I can about computer engineering as
+          possible.
+        </Paragraph>
+        <Paragraph>
+          I am doing this by making small projects here and there in languages I
+          am interested in, including this portfolio-ish page right here, in the
+          hopes of one day becoming a fullstack engineer! Feel free to snoop
+          around. I'm also available through my various links down below.
+        </Paragraph>
+      </Section>
     </Container>
   )
 }

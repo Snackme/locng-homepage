@@ -2,10 +2,9 @@ import Head from 'next/head'
 import Navbar from '../layouts/navbar'
 import { Box, Container } from '@chakra-ui/react'
 
-
 const Main = ({ children, router }) => {
   return (
-    <Box as="main" pb={8} >
+    <Box as="main" pb={8}>
       <Head>
         <meta
           name="viewport"
