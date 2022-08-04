@@ -5,7 +5,7 @@ import { Box, Container } from '@chakra-ui/react'
 
 const Main = ({ children, router }) => {
   return (
-    <Box as="main" pb={8}>
+    <Box as="main" pb={8} >
       <Head>
         <meta
           name="viewport"
@@ -16,7 +16,7 @@ const Main = ({ children, router }) => {
 
       <Navbar path={router.asPath}></Navbar>
 
-      <Container maxW="container.ms" pt={14}>
+      <Container maxW="container.md" pt={16}>
         {children}
       </Container>
     </Box>
