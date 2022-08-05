@@ -73,8 +73,8 @@ const Page = () => {
         </Heading>
         <Section>
           <Paragraph>
-            I&apos;m a computer engineer student, studying at the university of
-            Oslomet. I am currently working towards my bachelor thesis next
+            I&apos;m a computer engineer student, studying at Oslomet
+            university. I am currently working towards my bachelor thesis next
             spring, by learning as much I can about computer engineering as
             possible.
           </Paragraph>
@@ -123,29 +123,17 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Hobbies and interests
         </Heading>
-        <Paragraph>
-        -Hiking
-        </Paragraph>
+        <Paragraph>-Hiking</Paragraph>
 
-        <Paragraph>
-        -Camping
-        </Paragraph>
+        <Paragraph>-Camping</Paragraph>
 
-        <Paragraph>
-        -Football
-        </Paragraph>
+        <Paragraph>-Football</Paragraph>
 
-        <Paragraph>
-        -AI
-        </Paragraph>
+        <Paragraph>-AI</Paragraph>
 
-        <Paragraph>
-        -Data-Security
-        </Paragraph>
+        <Paragraph>-Data-Security</Paragraph>
 
-        <Paragraph>
-        -SoftwareDesign and development
-        </Paragraph>
+        <Paragraph>-SoftwareDesign and development</Paragraph>
       </Section>
     </Container>
   )
