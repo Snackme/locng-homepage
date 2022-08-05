@@ -20,7 +20,7 @@ const Logo = () => {
   const nameLogo = `/images/catmotorcycle${useColorModeValue('', '-dark')}.png`
 
   return (
-    <Link href="/">
+    <Link href="/" scroll={false}>
       <a>
         <LogoBox>
           <Image src={nameLogo} width={20} height={20} alt="logo"></Image>

@@ -1,4 +1,4 @@
-import Logo from '../logo'
+import Logo from './logo'
 import NextLink from 'next/link'
 import {
   Container,
@@ -15,7 +15,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-import ThemeToggleButton from '../theme-toggle-button'
+import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href
@@ -24,7 +24,7 @@ const LinkItem = ({ href, path, children }) => {
     <NextLink href={href}>
       <Link
         p={2}
-        bg={active ? 'glassTeal' : undefined}
+        bg={active && 'glassTeal'}
         color={active ? '#202023' : inactiveColor}
       >
         {children}
