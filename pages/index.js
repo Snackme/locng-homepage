@@ -14,7 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/layouts/bio'
 
 const Page = () => {
-  const pic = `/images/catmotorcycle${useColorModeValue('', '-dark')}.png`
+  const pic = `/images/PFP${useColorModeValue('', '-dark')}.png`
   return (
     <Container>
       <Box
