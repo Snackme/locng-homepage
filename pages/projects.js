@@ -1,7 +1,16 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import {
+  Container,
+  Heading,
+  SimpleGrid,
+  Divider,
+  Center
+} from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
+
+import thumbChatBot from '../public/images/works/chatbot.png'
+import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 
 const Projects = () => {
   return (
@@ -14,10 +23,33 @@ const Projects = () => {
         do throughout my career. Feel free to click around and explore.
       </Paragraph>
 
-      <SimpleGrid columns={[1, 1]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <ProjectGridItem id="chat">
+          <ProjectGridItem
+            id="walknote"
+            title="Walknote"
+            thumbnail={thumbWalknote}
+          >
+            Music recommendation app for iOS
+          </ProjectGridItem>
+        </Section>
 
+        <Section>
+          <ProjectGridItem
+            id="chatbot"
+            title="ChatBot"
+            thumbnail={thumbChatBot}
+          >
+            bababoye
+          </ProjectGridItem>
+        </Section>
+        <Section>
+          <ProjectGridItem
+            id="walknote"
+            title="Walknote"
+            thumbnail={thumbWalknote}
+          >
+            Music recommendation app for iOS
           </ProjectGridItem>
         </Section>
       </SimpleGrid>
