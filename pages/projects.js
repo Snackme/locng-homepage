@@ -1,8 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
-import { Head } from 'next/document'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/layouts/grid-item'
+import { ProjectGridItem } from '../components/grid-item'
 
 const Projects = () => {
   return (
@@ -15,23 +14,13 @@ const Projects = () => {
         do throughout my career. Feel free to click around and explore.
       </Paragraph>
 
-      <Section>
-        <Heading as="h3" variant="section-title" align="center">
-          School-projects
-        </Heading>
-      </Section>
+      <SimpleGrid columns={[1, 1]} gap={6}>
+        <Section>
+          <ProjectGridItem id="chat">
 
-      <Section>
-        <Heading as="h3" variant="section-title" align="center">
-          Personal projects
-        </Heading>
-      </Section>
-
-      <Section>
-        <Heading as="h3" variant="section-title" align="center">
-          Work
-        </Heading>
-      </Section>
+          </ProjectGridItem>
+        </Section>
+      </SimpleGrid>
     </Container>
   )
 }

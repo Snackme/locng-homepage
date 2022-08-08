@@ -1,10 +1,10 @@
 import NextLink from 'next/link'
-import { Image } from 'next/image'
+import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
-  <Box w="100%" align="center">
+  <Box w="100%" textAlign="center">
     <LinkBox cursor="pointer">
       <Image
         src={thumbnail}
@@ -12,7 +12,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
         className="grid-item-thumbnail"
         placeholder="blur"
         loading="lazy"
-      ></Image>
+      />
       <LinkOverlay href={href} target="_blank">
         <Text mt={2}>{title}</Text>
       </LinkOverlay>
@@ -21,17 +21,17 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
-export const WorkGridItem = ({ children, id, title, thumbnail }) => (
-  <Box w="100%" align="center">
-    <NextLink href={'/works/${id}'}>
+export const ProjectGridItem = ({ children, id, title, thumbnail }) => (
+  <Box w="100%" textAlign="center">
+    <NextLink href={`/projects/${id}`} passHref scroll={false}>
       <LinkBox cursor="pointer">
         <Image
           src={thumbnail}
           alt={title}
           className="grid-item-thumbnail"
           placeholder="blur"
-        ></Image>
-        <LinkOverlay href={'/works/${id}'}>
+        />
+        <LinkOverlay href={`/projects/${id}`}>
           <Text mt={2} fontSize={20}>
             {title}
           </Text>
@@ -44,9 +44,10 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
 
 export const GridItemStyle = () => (
   <Global
-    styles={`.grid-item-thumbnail {
-            border-radius: 12px; 
-        }
+    styles={`
+      .grid-item-thumbnail {
+        border-radius: 12px;
+      }
     `}
   />
 )
