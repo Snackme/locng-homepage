@@ -30,7 +30,7 @@ const Projects = () => {
             title="Walknote"
             thumbnail={thumbWalknote}
           >
-            Stock music app test
+            Stock project (add later)
           </ProjectGridItem>
         </Section>
 
@@ -49,7 +49,7 @@ const Projects = () => {
             title="Walknote"
             thumbnail={thumbWalknote}
           >
-            Stock music app test
+            Stock project (add later)
           </ProjectGridItem>
         </Section>
       </SimpleGrid>
