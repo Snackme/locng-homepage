@@ -9,7 +9,7 @@ import Paragraph from '../components/paragraph'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 
-import thumbChatBot from '../public/images/works/chatbot.png'
+import thumbChatBot from '../public/images/works/walknote_eyecatch.png'
 import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 
 const Projects = () => {
