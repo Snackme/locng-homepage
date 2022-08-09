@@ -83,7 +83,7 @@ const Page = () => {
             I am interested in, including this portfolio-ish page right here, in
             the hopes of one day becoming a fullstack engineer! Feel free to
             snoop around. I&apos;m also available through my various links down
-            below.
+            below!
           </Paragraph>
         </Section>
 
