@@ -2,9 +2,10 @@ import {
   Container,
   Heading,
   SimpleGrid,
-  /* Divider,
-  Center */
+  Divider,
+  Center
 } from '@chakra-ui/react'
+import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
@@ -14,6 +15,7 @@ import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 
 const Projects = () => {
   return (
+    <Layout>
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Projects ッ
@@ -54,6 +56,7 @@ const Projects = () => {
         </Section>
       </SimpleGrid>
     </Container>
+    </Layout>
   )
 }
 
