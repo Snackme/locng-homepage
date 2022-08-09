@@ -5,7 +5,7 @@ import {
   Box,
   Heading,
   Image,
-  Link,
+ /* Link, */
   useColorModeValue
 } from '@chakra-ui/react'
 import Section from '../components/section'

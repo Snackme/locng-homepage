@@ -2,8 +2,8 @@ import {
   Container,
   Heading,
   SimpleGrid,
-  Divider,
-  Center
+  /* Divider,
+  Center */
 } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
@@ -30,7 +30,7 @@ const Projects = () => {
             title="Walknote"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            Stock music app test
           </ProjectGridItem>
         </Section>
 
@@ -49,7 +49,7 @@ const Projects = () => {
             title="Walknote"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            Stock music app test
           </ProjectGridItem>
         </Section>
       </SimpleGrid>
