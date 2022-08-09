@@ -15,7 +15,6 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 
 
-
 const Page = () => {
   const pic = `/images/PFP${useColorModeValue('', '-dark')}.png`
   return (
@@ -83,7 +82,8 @@ const Page = () => {
               possible.
             </Paragraph>
             <Paragraph>
-              I am doing this by making small projects here and there in
+              I am doing this by making small projects like a <NextLink href="projects/chatbot">
+                <Link>chatbot</Link></NextLink> here and there in
               languages I am interested in, including this portfolio-ish page
               right here, in the hopes of one day becoming a fullstack engineer!
               Feel free to snoop around. I&apos;m also available through my
