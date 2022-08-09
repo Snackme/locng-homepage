@@ -22,7 +22,7 @@ export const ProjectImage = ({ src, alt }) => (
 )
 
 export const Meta = ({ children }) => (
-  <Badge colorScheme='"green' mr={2}>
+  <Badge colorScheme="cyan" mr={2}>
     {children}
   </Badge>
 )

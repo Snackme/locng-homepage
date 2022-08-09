@@ -2,16 +2,15 @@ import {
   Container,
   Heading,
   SimpleGrid,
-  Divider,
-  Center
+  Divider
 } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 
-import thumbChatBot from '../public/images/works/walknote_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbChatBot from '../public/images/projects/chatbot.png'
+import thumbWalknote from '../public/images/projects/walknote_eyecatch.png'
 
 const Projects = () => {
   return (
@@ -28,8 +27,8 @@ const Projects = () => {
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <ProjectGridItem
-            id="walknote"
-            title="Walknote"
+            id=""
+            title=""
             thumbnail={thumbWalknote}
           >
             Stock project (add later)
@@ -39,16 +38,17 @@ const Projects = () => {
         <Section>
           <ProjectGridItem
             id="chatbot"
-            title="ChatBot"
+            title="chatBot"
             thumbnail={thumbChatBot}
           >
+
             bababoye
           </ProjectGridItem>
         </Section>
         <Section>
           <ProjectGridItem
-            id="walknote"
-            title="Walknote"
+            id=""
+            title=""
             thumbnail={thumbWalknote}
           >
             Stock project (add later)
