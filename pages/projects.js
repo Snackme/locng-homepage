@@ -28,17 +28,17 @@ const Projects = () => {
           </Heading>
         </Section>
 
-        <Section>
-          <ProjectGridItem
-            id="chatbot"
-            title="chatBot"
-            thumbnail={thumbChatBot}
-          >
-            Portfolio assigmnent for subject: Networking and Cloud Computing. A
-            simple interactable chatbot through a TCP connection.
-          </ProjectGridItem>
-        </Section>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <ProjectGridItem
+              id="chatbot"
+              title="chatBot"
+              thumbnail={thumbChatBot}
+            >
+              Portfolio assigmnent for subject: Networking and Cloud Computing.
+              A simple interactable chatbot through a TCP connection.
+            </ProjectGridItem>
+          </Section>
           <Section>
             <ProjectGridItem id="" title="" thumbnail={thumbWalknote}>
               Stock project (add later)
@@ -59,7 +59,6 @@ const Projects = () => {
             Other projects (coming soon)
           </Heading>
         </Section>
-
       </Container>
     </Layout>
   )

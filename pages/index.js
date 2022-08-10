@@ -139,6 +139,12 @@ const Page = () => {
 
           <Paragraph>-SoftwareDesign and development</Paragraph>
         </Section>
+
+        <Section delay="0.3">
+        <Heading as="h3" variant="section-title">
+            Skills
+          </Heading>
+        </Section>
       </Container>
     </Layout>
   )
