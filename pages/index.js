@@ -93,7 +93,7 @@ const Page = () => {
 
           <Box align="right" my={4}>
             <NextLink href="/projects">
-              <Button centerIcon={<ChevronRightIcon />} colorScheme="blue">
+              <Button centericon={<ChevronRightIcon />} colorScheme="blue">
                 My projects
               </Button>
             </NextLink>
