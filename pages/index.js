@@ -13,7 +13,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-
+import Skills from '../components/skills'
 
 const Page = () => {
   const pic = `/images/PFP${useColorModeValue('', '-dark')}.png`
@@ -82,12 +82,13 @@ const Page = () => {
               possible.
             </Paragraph>
             <Paragraph>
-              I am doing this by making small projects like a <NextLink href="projects/chatbot">
-                <Link>chatbot</Link></NextLink> here and there in
-              languages I am interested in, including this portfolio-ish page
-              right here, in the hopes of one day becoming a fullstack engineer!
-              Feel free to snoop around. I&apos;m also available through my
-              various links down below!
+              I am doing this by making small projects like a{' '}
+              <NextLink href="projects/chatbot">
+                <Link>chatbot</Link>
+              </NextLink>{' '}
+              here and there in languages I am interested in, including this
+              portfolio-ish page right here! Feel free to snoop around. I&apos;m
+              also available through my various links down below!
             </Paragraph>
           </Section>
 
@@ -141,9 +142,10 @@ const Page = () => {
         </Section>
 
         <Section delay="0.3">
-        <Heading as="h3" variant="section-title">
+          <Heading as="h3" variant="section-title">
             Skills
           </Heading>
+          <Skills></Skills>
         </Section>
       </Container>
     </Layout>
