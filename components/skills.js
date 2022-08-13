@@ -10,23 +10,13 @@ const LogoBox = styled.span`
   align-items:center;
   height:30px
   line-height: 20px;
-  padding: 10px;
+  padding: 20px;
 
-  img {
-    transition: 200ms ease;
-  }
-
-  &:hover img {
-    transform:rotate(30deg);
-  }
 `
 const Skills = () => {
-  const javaLogo = `/images/skills/java${useColorModeValue('', '-dark')}.png`
-  const cLogo = `/images/catmotorcycle${useColorModeValue('', '-dark')}.png`
-  const pythonLogo = `/images/catmotorcycle${useColorModeValue(
-    '',
-    '-dark'
-  )}.png`
+  const javaLogo = `/images/skills/java.png`
+  const cLogo = `/images/skills/c-lang.png`
+  const pythonLogo = `/images/skills/python-lang.jpg`
 
   const reactLogo = `/images/catmotorcycle${useColorModeValue('', '-dark')}.png`
   const nextLogo = `/images/catmotorcycle${useColorModeValue('', '-dark')}.png`
@@ -35,7 +25,7 @@ const Skills = () => {
   return (
     <Section>
       <LogoBox>
-        <Image src={javaLogo} width={28} height={40} alt="logo"></Image>
+        <Image src={javaLogo} width={30} height={40} alt="logo"></Image>
         <Text
           color={useColorModeValue('gray.800', 'whiteaAlpha.900')}
           fontFamily="Noto Sans, sans-serif"
@@ -47,18 +37,29 @@ const Skills = () => {
       </LogoBox>
 
       <LogoBox>
-        <Image src={javaLogo} width={28} height={40} alt="logo"></Image>
+        <Image src={cLogo} width={40} height={40} alt="logo"></Image>
         <Text
           color={useColorModeValue('gray.800', 'whiteaAlpha.900')}
           fontFamily="Noto Sans, sans-serif"
           fontWeight="bold"
           ml={3}
         >
-          Java
+          C
+        </Text>
+      </LogoBox>
+
+      <LogoBox>
+        <Image src={pythonLogo} width={70} height={40} alt="logo"></Image>
+        <Text
+          color={useColorModeValue('gray.800', 'whiteaAlpha.900')}
+          fontFamily="Noto Sans, sans-serif"
+          fontWeight="bold"
+          ml={3}
+        >
+          Python
         </Text>
       </LogoBox>
     </Section>
-    
   )
 }
 

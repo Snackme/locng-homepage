@@ -145,7 +145,10 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Skills
           </Heading>
-          <Skills></Skills>
+          <Paragraph>
+            These are the languages I&apos;m most comfortable with
+          </Paragraph>
+          <Skills />
         </Section>
       </Container>
     </Layout>
