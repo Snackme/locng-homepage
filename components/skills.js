@@ -21,15 +21,13 @@ const Skills = () => {
   const pythonLogo = `/images/skills/python-lang.png`
 
   const reactLogo = `/images/skills/react.png`
-  const nextLogo = `/images/catmotorcycle${useColorModeValue('', '-dark')}.png`
-  const catLogo = `/images/catmotorcycle${useColorModeValue('', '-dark')}.png`
 
   return (
     <Section>
       <Section>
         <Paragraph>These are the languages I&apos;m comfortable with</Paragraph>
       <LogoBox>
-        <Image src={javaLogo} width={50} height={50} alt="logo"></Image>
+        <Image src={javaLogo} width={40} height={50} alt="logo"></Image>
         <Text
           color={useColorModeValue('gray.800', 'whiteaAlpha.900')}
           fontFamily="Noto Sans, sans-serif"
