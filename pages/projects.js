@@ -6,6 +6,7 @@ import { ProjectGridItem } from '../components/grid-item'
 
 import thumbChatBot from '../public/images/projects/chatbot.png'
 import thumbWalknote from '../public/images/projects/walknote_eyecatch.png'
+import thumbEcoFeast from '../public/images/projects/ecoFeast3.png'
 
 const Projects = () => {
   return (
@@ -32,7 +33,7 @@ const Projects = () => {
           <Section>
             <ProjectGridItem
               id="chatbot"
-              title="chatBot"
+              title="ChatBot"
               thumbnail={thumbChatBot}
             >
               Portfolio assigmnent for subject: Networking and Cloud Computing.
@@ -40,8 +41,9 @@ const Projects = () => {
             </ProjectGridItem>
           </Section>
           <Section>
-            <ProjectGridItem id="" title="" thumbnail={thumbWalknote}>
-              Stock project (add later)
+            <ProjectGridItem id="ecoFeast" title="EcoFeast" thumbnail={thumbEcoFeast}>
+              Assigment for subject: Web development and inclusive design.
+              A concept for an app that tackles the UN&apos;s 13th sustainable development goal. 
             </ProjectGridItem>
           </Section>
 

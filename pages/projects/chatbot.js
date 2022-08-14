@@ -4,7 +4,7 @@ import { Title, ProjectImage, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-const Project = () => (
+const ChatBot = () => (
   <Layout title="ChatBot">
     <Container>
       <Title>
@@ -31,4 +31,4 @@ const Project = () => (
   </Layout>
 )
 
-export default Project
+export default ChatBot
