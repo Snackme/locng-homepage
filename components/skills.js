@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Box, Text, useColorModeValue } from '@chakra-ui/react'
+import {Text} from '@chakra-ui/react'
 import styled from '@emotion/styled'
 import Section from './section'
 import Paragraph from '../components/paragraph'
