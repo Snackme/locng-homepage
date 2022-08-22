@@ -34,9 +34,9 @@ const EcoFeast = () => (
           </Link>
         </ListItem>
       </List>
-      <ProjectImage src="/images/projects/ecofeast1.png"></ProjectImage>
-      <ProjectImage src="/images/projects/ecofeast2.png"></ProjectImage>
-      <ProjectImage src="/images/projects/ecofeast3.png"></ProjectImage>
+      <ProjectImage src="../images/projects/ecofeast1.png"></ProjectImage>
+      <ProjectImage src="../images/projects/ecofeast2.png"></ProjectImage>
+      <ProjectImage src="../images/projects/ecofeast3.png"></ProjectImage>
     </Container>
   </Layout>
 )
