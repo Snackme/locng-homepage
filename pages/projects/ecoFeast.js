@@ -1,13 +1,8 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/project'
+import { Title, ProjectImage, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { ProjectGridItem } from '../../components/grid-item'
-
-import thumbEcoFeast1 from '../../public/images/projects/ecoFeast1.png'
-import thumbEcoFeast2 from '../../public/images/projects/ecoFeast2.png'
-import thumbEcoFeast3 from '../../public/images/projects/ecoFeast3.png'
 
 const EcoFeast = () => (
   <Layout title="ChatBot">
@@ -39,9 +34,9 @@ const EcoFeast = () => (
           </Link>
         </ListItem>
       </List>
-      <ProjectGridItem title="" id="" thumbnail={thumbEcoFeast1}></ProjectGridItem>
-      <ProjectGridItem title="" id="" thumbnail={thumbEcoFeast2}></ProjectGridItem>
-      <ProjectGridItem title="" id="" thumbnail={thumbEcoFeast3}></ProjectGridItem>
+      <ProjectImage src="/images/projects/ecoFeast1.png"></ProjectImage>
+      <ProjectImage src="/images/projects/ecoFeast2.png"></ProjectImage>
+      <ProjectImage src="/images/projects/ecoFeast3.png"></ProjectImage>
     </Container>
   </Layout>
 )
