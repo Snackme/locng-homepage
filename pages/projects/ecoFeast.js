@@ -3,11 +3,11 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { ProjectGridItem } from '../components/grid-item'
+import { ProjectGridItem } from '../../components/grid-item'
 
-import thumbEcoFeast1 from '../public/images/projects/ecoFeast1.png'
-import thumbEcoFeast2 from '../public/images/projects/ecoFeast2.png'
-import thumbEcoFeast3 from '../public/images/projects/ecoFeast3.png'
+import thumbEcoFeast1 from '../../public/images/projects/ecoFeast1.png'
+import thumbEcoFeast2 from '../../public/images/projects/ecoFeast2.png'
+import thumbEcoFeast3 from '../../public/images/projects/ecoFeast3.png'
 
 const EcoFeast = () => (
   <Layout title="ChatBot">
